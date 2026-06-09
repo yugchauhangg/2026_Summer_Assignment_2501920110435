@@ -1,0 +1,4 @@
+# Q32: Repeated-number pattern
+n = int(input("Enter rows: "))
+for i in range(1, n + 1):
+    print(str(i) * i)
